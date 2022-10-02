@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Helicopter Noise Legislation:<br>
+        Don't Throw Your Earplugs Away <br>... Yet</h1>
+        <h2>A lot of noise -and self-congratulation between local,<br> state, and federal legislators ...for nothing in view.</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="img" src="images/2022_10_01_HELI_landing01.jpg">
+        <figcaption>The Helipad at 34th street and East River <span class="credit">Credit: S. de Beaufort</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Almost six months have passed since it was announced all over the local news that new bills were on their ways to limit helicopters traffic -and noise- in NYC to essential needs and to crack down on private companies. Bills on this topic have been proposed at the city, state, and federal levels. None of them are even close to be voted as laws.</p>
+        <p>Manhattan CB6 ranks 4th in the number of helicopter noise complaints. However, the heliport at 34th East has already been limited to essential flights 5 years ago (and no flight on the weekend) so little change should be expected there.</p>
+       
+      </section>
+
+      <h3 class="flex-hed">Integer lacinia massa</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="main_img" src="images/2022_10_01_HELI_landing02.jpg"> 
+            <figcaption class="sub_cap">The Heliport on weekend <br><span class="credit">(c)S. de Beaufort</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>The Heliport is closed on weekends. From Monday through Friday, operations are allowed from 8AM to 8PM. <br>About 28,000 max -only essential- flights per year are allowed. <br>The operator of the heliport is responsible for the good maintenance of the buildings and environment.
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/2022_10_01_HELI_outside01.jpg">
+            <figcaption class="sub_cap">The Helipad in the middle of the promenade on East River  <br> <span class="credit">(c)S. de Beaufort</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>So far, in 2022, there were 18,283 complaints related to helicopters. <br>In 2021, there were 25,916 complaints. <br>In 2020, 10,358 complaints. <br>And in 2019, 25,916 complaints. <br>These numbers show no fluctuation if we consider that the drop in 2020 was due to the pandemic.</p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/2022_10_01_HELI_trash01.jpg">
+            <figcaption class="sub_cap">The surroundings of the Helipad <br><span class="credit">(c)S. de Beaufort</span></figcaption>
+          </figure>
+          <section class="sub_text">
+             <p>CB6 Chairperson Kyle Athayde would love to see this heliport closed and have it redeveloped for the local people. </p>
+             <p>Right now, it looks like a gated waste disposal.</p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
